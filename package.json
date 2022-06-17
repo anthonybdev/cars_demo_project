@@ -1,0 +1,111 @@
+{
+  "name": "react-17-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.0",
+    "@mui/material": "^5.6.0",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.26",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^0.26.1",
+    "html-react-parser": "^1.4.12",
+    "json-server": "^0.17.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "redux-saga": "^1.1.3",
+    "redux-toolkit": "^1.1.2",
+    "typescript": "^4.6.3",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run stylelint && npm run prettier && npm run eslint && react-scripts build ",
+    "clean": "(rm -rf build || :) && (rm -rf node_modules/* || :)",
+    "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage --watchAll=false",
+    "jest": "react-scripts test --watchAll=false",
+    "eject": "react-scripts eject",
+    "stylelint": "stylelint \"**/*.scss\"",
+    "prettier": "prettier --check . --ignore-path ./.prettierignore",
+    "eslint": "eslint \"**/*.{ts,tsx}\" --ignore-path ./.eslintignore",
+    "stylelint-fix": "stylelint --fix \"**/*.scss\"",
+    "prettier-fix": "prettier . --write --ignore-path ./.prettierignore",
+    "eslint-fix": "eslint \"**/*.{ts,tsx}\" --fix --ignore-path ./.eslintignore",
+    "freshinstall": "npm run clean && npm i",
+    "pretest": "npm run prettier && npm run stylelint && npm run eslint"
+  },
+  "jest": {
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx,js,jsx}",
+      "!src/**/index.tsx",
+      "!src/**/*.template.{ts,tsx,js,jsx}",
+      "!src/hocs/**/*.{ts,tsx,js,jsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "text",
+      "lcov"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.11",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "enzyme": "^3.11.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-only-warn": "^1.0.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "node-sass": "^7.0.1",
+    "prettier": "^2.6.1",
+    "stylelint": "^14.6.1",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}

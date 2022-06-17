@@ -1,0 +1,40 @@
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.detailsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detailsImage {
+  height: 432px;
+  width: 768px;
+  border-radius: 3px;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnBack {
+  display: inline-block;
+  align-self: center;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 30px 0;
+}

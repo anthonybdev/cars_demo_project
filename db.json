@@ -1,0 +1,181 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "typeName": "Electrical",
+      "type": "electrical",
+      "image": "https://wallpaperaccess.com/full/486595.jpg",
+      "name": "Tesla Model S",
+      "details": {
+        "horsepower": 175,
+        "weight": "0.8t",
+        "charging_Time": "23h"
+      }
+    },
+    {
+      "id": 2,
+      "typeName": "Sport",
+      "type": "sport",
+      "image": "https://wallpaperaccess.com/full/3184770.jpg",
+      "name": "BMW M5",
+      "details": {
+        "horsepower": 550,
+        "gearbox": "Manual",
+        "doors": 4
+      }
+    },
+    {
+      "id": 3,
+      "typeName": "Sport",
+      "type": "sport",
+      "image": "https://images.wallpaperscraft.com/image/single/porsche_911_turbo_gtr_carbon_edition_991_black_103236_1920x1080.jpg",
+      "name": "Porsche 911",
+      "details": {
+        "horsepower": 430,
+        "gearbox": "Automatic",
+        "doors": 2
+      }
+    },
+    {
+      "id": 4,
+      "typeName": "2 Wheels",
+      "type": "wheels2",
+      "image": "https://k8q7r7a2.stackpathcdn.com/wp-content/uploads/2020/06/Gyro-x-self-balancing-car-1.jpg",
+      "name": "Lit C-1",
+      "details": {
+        "horsepower": 79,
+        "gearbox": "Manual"
+      }
+    },
+    {
+      "id": 5,
+      "typeName": "Electrical",
+      "type": "electrical",
+      "image": "https://cdn.motor1.com/images/mgl/x7n0q/s1/kia-ev6.jpg",
+      "name": "Kia EV6",
+      "details": {
+        "horsepower": 175,
+        "weight": "0.8t",
+        "charging_Time": "11h"
+      }
+    },
+    {
+      "id": 6,
+      "typeName": "Electrical",
+      "type": "electrical",
+      "image": "https://wallpaperaccess.com/full/486595.jpg",
+      "name": "Tesla Model S",
+      "details": {
+        "horsepower": 175,
+        "weight": "0.8t",
+        "charging_Time": "27h"
+      }
+    },
+    {
+      "id": 7,
+      "typeName": "Sport",
+      "type": "sport",
+      "image": "https://wallpaperaccess.com/full/3184770.jpg",
+      "name": "BMW M5",
+      "details": {
+        "horsepower": 550,
+        "gearbox": "Manual",
+        "doors": 4
+      }
+    },
+    {
+      "id": 8,
+      "typeName": "Sport",
+      "type": "sport",
+      "image": "https://images.wallpaperscraft.com/image/single/porsche_911_turbo_gtr_carbon_edition_991_black_103236_1920x1080.jpg",
+      "name": "Porsche 911",
+      "details": {
+        "horsepower": 430,
+        "gearbox": "Automatic",
+        "doors": 2
+      }
+    },
+    {
+      "id": 9,
+      "typeName": "2 Wheels",
+      "type": "wheels2",
+      "image": "https://k8q7r7a2.stackpathcdn.com/wp-content/uploads/2020/06/Gyro-x-self-balancing-car-1.jpg",
+      "name": "Lit C-1",
+      "details": {
+        "horsepower": 79,
+        "gearbox": "Manual"
+      }
+    },
+    {
+      "id": 10,
+      "typeName": "Electrical",
+      "type": "electrical",
+      "image": "https://cdn.motor1.com/images/mgl/x7n0q/s1/kia-ev6.jpg",
+      "name": "Kia EV6",
+      "details": {
+        "horsepower": 175,
+        "weight": "0.8t",
+        "charging_Time": "24h"
+      }
+    },
+    {
+      "id": 11,
+      "typeName": "Electrical",
+      "type": "electrical",
+      "image": "https://wallpaperaccess.com/full/486595.jpg",
+      "name": "Tesla Model S",
+      "details": {
+        "horsepower": 175,
+        "weight": "0.8t",
+        "charging_Time": "31h"
+      }
+    },
+    {
+      "id": 12,
+      "typeName": "Sport",
+      "type": "sport",
+      "image": "https://wallpaperaccess.com/full/3184770.jpg",
+      "name": "BMW M5",
+      "details": {
+        "horsepower": 550,
+        "gearbox": "Manual",
+        "doors": 4
+      }
+    },
+    {
+      "id": 13,
+      "typeName": "Sport",
+      "type": "sport",
+      "image": "https://images.wallpaperscraft.com/image/single/porsche_911_turbo_gtr_carbon_edition_991_black_103236_1920x1080.jpg",
+      "name": "Porsche 911",
+      "details": {
+        "horsepower": 430,
+        "gearbox": "Automatic",
+        "doors": 2
+      }
+    },
+    {
+      "id": 14,
+      "typeName": "2 Wheels",
+      "type": "wheels2",
+      "image": "https://k8q7r7a2.stackpathcdn.com/wp-content/uploads/2020/06/Gyro-x-self-balancing-car-1.jpg",
+      "name": "Lit C-1",
+      "details": {
+        "horsepower": 79,
+        "gearbox": "Manual"
+      }
+    },
+    {
+      "id": 15,
+      "typeName": "Electrical",
+      "type": "electrical",
+      "image": "https://cdn.motor1.com/images/mgl/x7n0q/s1/kia-ev6.jpg",
+      "name": "Kia EV6",
+      "details": {
+        "horsepower": 175,
+        "weight": "0.8t",
+        "charging_Time": "17h"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contentWrapper {
+  display: flex;
+  padding: 0 30px;
+  gap: 30px;
+}
+
+.carsWrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: calc(100vw - 360px);
+}
