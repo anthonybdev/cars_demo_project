@@ -2,7 +2,7 @@
   "name": "react-17-ts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{anthonybdev}.github.io",
+  "homepage": "https://anthonybdev.github.io/cars_demo_project",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
