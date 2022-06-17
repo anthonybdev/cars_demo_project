@@ -2,6 +2,7 @@
   "name": "react-17-ts",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://{anthonybdev}.github.io",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -47,7 +48,9 @@
     "prettier-fix": "prettier . --write --ignore-path ./.prettierignore",
     "eslint-fix": "eslint \"**/*.{ts,tsx}\" --fix --ignore-path ./.eslintignore",
     "freshinstall": "npm run clean && npm i",
-    "pretest": "npm run prettier && npm run stylelint && npm run eslint"
+    "pretest": "npm run prettier && npm run stylelint && npm run eslint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "clearMocks": true,
@@ -103,6 +106,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "prettier": "^2.6.1",
     "stylelint": "^14.6.1",
